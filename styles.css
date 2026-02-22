@@ -1,0 +1,57 @@
+body {
+	background: black;
+}
+* {
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 370;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 1000px;
+	margin: none;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+form {
+	border: none;
+	border-bottom: black;
+}
+p {
+	font-size: 15px;
+	font-family: Betania Patmos;
+}
+input {
+	color: black;
+	border-bottom: black solid 1px;
+	border-top: black solid 1px;
+	border-left: black solid 1px;
+	border-right: black solid 1px;
+}
+#sendbutton {
+	background-color: gainsboro;
+	border-bottom: black solid 1px;
+	border-right: black solid 1px;
+}
+.postcard-footer {
+	text-align: center;
+	padding: 10px;
+}
